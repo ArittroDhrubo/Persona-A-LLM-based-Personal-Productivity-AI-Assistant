@@ -1,0 +1,61 @@
+name: personass
+description: "AI-powered smart calendar application"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Calendar UI
+  table_calendar: ^3.0.9
+
+  # WebSocket
+  web_socket_channel: ^2.4.0
+
+  # Audio playback
+  audioplayers: ^5.2.1
+
+  # Local storage
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  path_provider: ^2.1.1
+
+  # Notifications and timezone support
+  flutter_local_notifications: ^17.0.0
+  timezone: ^0.9.4
+
+  # Date formatting
+  intl: ^0.18.1
+
+  # Icons
+  cupertino_icons: ^1.0.8
+
+  # HTTP requests
+  http: ^1.2.0
+
+  # Check internet connectivity
+  connectivity_plus: ^5.0.2
+
+  # Speech Recognition
+  speech_to_text: ^7.0.0
+  permission_handler: ^11.0.1
+
+  # Device information
+  device_info_plus: ^10.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+  # Hive adapter code generation
+  build_runner: ^2.4.8
+  hive_generator: ^2.0.1
+
+flutter:
+  uses-material-design: true
